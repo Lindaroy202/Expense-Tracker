@@ -19,7 +19,7 @@ body {
 }
 marquee {
     font-weight: bold;
-    color:green;
+    color:red;
     font-size:2em
 }
 /* box style */

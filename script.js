@@ -8,14 +8,14 @@ const state = { // this will represent all the values from the html
         { id: uniqueId(), name: 'Buy Guitar', amount: 500, type: 'expense' } */
     ]
 }
-let balanceEl = document.querySelector('#balance');
-let incomeEl = document.querySelector('#income');
-let expenseEl = document.querySelector('#expense');
-let transactionsEl = document.querySelector('#transaction');
-let incomeBtnEl = document.querySelector('#incomeBtn');
-let expenseBtnEl = document.querySelector('#expenseBtn')
-let nameInputEl = document.querySelector('#name')
-let amountInputEl = document.querySelector('#amount')
+const balanceEl = document.querySelector('#balance');
+const incomeEl = document.querySelector('#income');
+const expenseEl = document.querySelector('#expense');
+const transactionsEl = document.querySelector('#transaction');
+const incomeBtnEl = document.querySelector('#incomeBtn');
+const expenseBtnEl = document.querySelector('#expenseBtn')
+const nameInputEl = document.querySelector('#name')
+const amountInputEl = document.querySelector('#amount')
 
 /* function init() {
   balanceEl.innerHTML = `€${state.balance}`
