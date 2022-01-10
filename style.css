@@ -12,10 +12,7 @@ body {
     flex-direction: column;
     justify-content:center;
     align-items:center;
-     /* background-image: url(./image/mine.png);  */
-    background-repeat: no-repeat;
-    
-    background-position: center
+   background-color: pink;
 }
 marquee {
     font-weight: bold;
